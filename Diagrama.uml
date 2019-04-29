@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Memento</OriginalElement>
+  <nodes>
+    <node x="-337.5" y="-32.5">Caretaker</node>
+    <node x="-339.0" y="-182.0">Memento</node>
+    <node x="-66.5" y="-184.5">Usuario</node>
+    <node x="-69.5" y="-33.5">Principal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Principal" target="Caretaker">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Memento" target="Usuario">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Usuario" target="Memento">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Caretaker" target="Memento">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Principal" target="Usuario">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
